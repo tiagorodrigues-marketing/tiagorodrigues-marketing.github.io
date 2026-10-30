@@ -1,0 +1,9 @@
+# Cache: ficheiros com nome único (assets) guardam-se para sempre; imagens e vídeos 30 dias
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/img/*
+  Cache-Control: public, max-age=2592000
+/video/*
+  Cache-Control: public, max-age=2592000
+/*.jpg
+  Cache-Control: public, max-age=2592000
