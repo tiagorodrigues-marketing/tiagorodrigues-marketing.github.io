@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+# Tabela de preços em PDF: só para quem recebe o link, fora dos motores de busca
+Disallow: /precos/
